@@ -179,6 +179,9 @@ int main()
         case 'Q':
         quickSort(a,0,n-1);
         break;
+        case 'M':
+        mergeSort(a,0,n-1);
+        break;
         default:
         printf("Invalid Entry");
 
