@@ -173,6 +173,9 @@ int main()
         case 'S':
         selectionSort(a,n);
         break;
+        case 'B':
+        bubbleSort(a,n);
+        break;
         default:
         printf("Invalid Entry");
 
