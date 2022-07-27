@@ -176,6 +176,9 @@ int main()
         case 'B':
         bubbleSort(a,n);
         break;
+        case 'Q':
+        quickSort(a,0,n-1);
+        break;
         default:
         printf("Invalid Entry");
 
